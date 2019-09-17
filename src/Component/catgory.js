@@ -23,7 +23,7 @@ class Catgory extends React.Component{
     <Card.Body>
     <Card.Title>Lenovo Ideapad 520 </Card.Title>
     <Card.Text>
-    Lenovo Ideapad Premium 15.6 Inch Laptop 2019 Notebook Computer, AMD A6-9225 2.6GHz, 8GB DDR4 RAM, 1TB HDD, DVD-RW
+    Lenovo Ideapad Premium 15.6 inch Laptop 2019 Notebook Computer, AMD A6-9225 2.6GHz, 8GB DDR4 RAM, 1TB HDD, DVD-RW
     </Card.Text>
     </Card.Body>
     <Card.Footer>
