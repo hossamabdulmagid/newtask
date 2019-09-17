@@ -1,9 +1,8 @@
 import React from 'react';
 import Navbar from './Component/Navbar'
 import Summry from './Component/projectsummry'
-import Catgory from './Component/catgory.js'
 import Footer from './Component/saw'
-
+import Catgory from './Component/catgory.js'
 import './App.css';
 
 class App extends React.Component {
@@ -13,7 +12,6 @@ class App extends React.Component {
     <div className="App">   
         <Navbar />  
         <Catgory />
-
         <Summry />
         <Footer />
           
