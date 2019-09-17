@@ -13,7 +13,7 @@ class Navbars extends React.Component{
     height="30"
     className="d-inline-block align-top"
     />
-    {'EraMint'}
+    {'  EraMint'}
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

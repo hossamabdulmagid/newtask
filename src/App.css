@@ -49,6 +49,18 @@ nav.link{
 input.form-control {
   width:200px;
 }
+.container .footer-text {
+float:center;
+}
+.saww{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#343A40;
+  color: white;
+  text-align: center;
+}
 
 @keyframes App-logo-spin {
   from {

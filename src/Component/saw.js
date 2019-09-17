@@ -1,21 +1,14 @@
-<div class="float-left">
-           <div class="col-md-8">
-<h1>Categories </h1>
+import React from 'react'
+import {  MDBContainer } from "mdbreact";
 
 
-<input placeholder="Search…" type="text"  class="form-control ds-input"/>
-<br />
-
-<Form.Check type="checkbox" label="Apple" />
-<Form.Check type="checkbox" label="Huawei" />
-<Form.Check type="checkbox" label="Lenovo" />
-<Form.Check type="checkbox" label="Dell" />
-<Form.Check type="checkbox" label="Hp" />
-<Form.Check type="checkbox" label="Samsung" />
-<Form.Check type="checkbox" label="Oppo" />
-
-</div>
-
-
-
-                 </div>
+const Footer = () => {
+    return (
+      <div className="saww">
+          <MDBContainer fluid>
+            &copy; {new Date().getFullYear()} Copyright: 2019
+          </MDBContainer>
+          </div>
+        );
+    }
+export default Footer
