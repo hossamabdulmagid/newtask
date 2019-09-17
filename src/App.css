@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color:White;
+}
+.saw{
+  text-align: left;
+}
+.Aa{
+float:right;
+margin-top: 0%;
+width:50%;
+}
+nav.link{
+  color: White;
+}
+.float-left{
+  
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 220px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  ; /* Stay on top */
+  top: 10px; /* Stay at the top */
+  left: 0px;
+  background-color: #343A40; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin-top:  40px;
+  color:white;
+}
+input.form-control {
+  width:200px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
