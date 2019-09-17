@@ -10,7 +10,7 @@ class Catgory extends React.Component{
 <Card>
     <Card.Img variant="top" src="https://3.bp.blogspot.com/-MivKEqsh_d0/XOUnVlAivBI/AAAAAAAABQ8/qzeW4gMfqHMACaecK12KUDL9WZDlwV2jQCLcBGAs/s1600/kc.jpg" />
     <Card.Body>
-    <Card.Title>Huawei matebook </Card.Title>
+    <Card.Title>Huaweii matebook </Card.Title>
     <Card.Text>
     Huawei MateBook X Pro Signature Edition Thin & Light Laptop, 13.9" 3K Touch, 8th Gen i7-8550U</Card.Text>
     </Card.Body>
