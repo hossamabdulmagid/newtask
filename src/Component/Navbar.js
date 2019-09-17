@@ -1,5 +1,7 @@
 import React from 'react';
 import { Nav,Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import About from './About'
 class Navbars extends React.Component{
     render(){
      return (
@@ -19,9 +21,11 @@ class Navbars extends React.Component{
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto"></Nav>
     </Navbar.Collapse>
-    <Nav.Link href="#About" className="App-link">About</Nav.Link>
-
+    <Nav.Link  to='/About' className="App-link"  >About</Nav.Link>
+ 
     </Navbar>
+
+
 </div>
         )
     }
