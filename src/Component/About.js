@@ -9,7 +9,7 @@ const About = () =>{
      </p>
         <img width="550"
         alt=""
-    height="600"src="https://image.winudf.com/v2/image1/ZXJhbWludHByb2plY3RzLmVyYW1pbnQuY29tLmVyYW1pbnRwcm9qZWN0c19zY3JlZW5fMF8xNTUxODUzODM4XzA1OA/screen-0.jpg?h=355&fakeurl=1&type=.jpg" />
+    height="500"src="Eramint.jpg" />
        </div>
    
   );
