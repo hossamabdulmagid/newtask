@@ -4,18 +4,11 @@ import Form from 'react-bootstrap/Form'
 class Summry extends Component {
     render(){
         return(
-
-
-
-
-            <div class="float-left">
-            <div class="col-md-8">
- <h1>Categories </h1>
- 
- 
+  <div class="float-left">
+   <div class="col-md-8">
+      <h1>Categories </h1>
  <input placeholder="Search…" type="text"  class="form-control ds-input"/>
  <br />
- 
  <Form.Check type="checkbox" label="Apple" />
  <Form.Check type="checkbox" label="Huawei" />
  <Form.Check type="checkbox" label="Lenovo" />
@@ -25,12 +18,6 @@ class Summry extends Component {
  <Form.Check type="checkbox" label="Oppo" />
  
  </div>
- 
- 
- 
-                  </div>
-    
-        )
-        }
-}
+            </div>
+        );}}
 export default Summry;

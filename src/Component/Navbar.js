@@ -1,12 +1,10 @@
 import React from 'react';
-import {Link,NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 import {Navbar,Nav} from 'react-bootstrap'
 import Summry from './projectsummry';
-import About from './About'
 const Navbars = () => {
      return (
         <div  >
-
     <Navbar bg="dark" variant="dark">
         
     <Navbar.Brand href="#home">
@@ -33,4 +31,3 @@ const Navbars = () => {
     
 }
 export default Navbars;
-
