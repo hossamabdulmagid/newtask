@@ -4,10 +4,10 @@ import Form from 'react-bootstrap/Form'
 class Summry extends Component {
     render(){
         return(
-  <div class="float-left">
-   <div class="col-md-8">
+  <div className="float-left">
+   <div className="col-md-8">
       <h1>Categories </h1>
- <input placeholder="Search…" type="text"  class="form-control ds-input"/>
+ <input placeholder="Search…" type="text"  className="form-control ds-input"/>
  <br />
  <Form.Check type="checkbox" label="Apple" />
  <Form.Check type="checkbox" label="Huawei" />

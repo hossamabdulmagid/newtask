@@ -4,7 +4,7 @@ import {Navbar,Nav} from 'react-bootstrap'
 import Summry from './projectsummry';
 const Navbars = () => {
      return (
-        <div  >
+        <div>
     <Navbar bg="dark" variant="dark">
         
     <Navbar.Brand href="#home">
