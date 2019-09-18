@@ -1,12 +1,14 @@
 import React from 'react';
-import { Nav,Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import {Link,NavLink } from 'react-router-dom';
+import {Navbar,Nav} from 'react-bootstrap'
+import Summry from './projectsummry';
 import About from './About'
-class Navbars extends React.Component{
-    render(){
+const Navbars = () => {
      return (
- <div >
+        <div  >
+
     <Navbar bg="dark" variant="dark">
+        
     <Navbar.Brand href="#home">
     <img
     alt=""
@@ -21,14 +23,14 @@ class Navbars extends React.Component{
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto"></Nav>
     </Navbar.Collapse>
-    <Nav.Link  to='/About' className="App-link"  >About</Nav.Link>
- 
+    <NavLink exact  to='/' className="App-link"></NavLink>
+        <Summry />
+        <NavLink to='/About'  >About</NavLink>
+
     </Navbar>
-
-
 </div>
         )
-    }
+    
 }
 export default Navbars;
 

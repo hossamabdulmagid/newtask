@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-class  About extends Component {
-  render(){
+import React  from 'react';
+const About = () =>{
   return (
-            <div className="App">
-             
-            </div>
+     <div className="container">
+       <div className="row">
+         <h1>Sawsaw</h1>
+         <p>Hossam AbdulMagid Atia</p>
+       </div>
+     </div>
    
   );
-}}
+}
 
 export default About;

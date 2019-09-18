@@ -1,7 +1,7 @@
-import React from 'react';
+import React,{ Component } from 'react';
 import Form from 'react-bootstrap/Form'
 
-class Summry extends React.Component{
+class Summry extends Component {
     render(){
         return(
 
@@ -31,6 +31,6 @@ class Summry extends React.Component{
                   </div>
     
         )
-    }
+        }
 }
 export default Summry;
