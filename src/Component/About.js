@@ -9,7 +9,7 @@ const About = () =>{
      </p>
         <img width="550"
         alt=""
-    height="500"src="Eramint.jpg" />
+    height="50"src="Eramint.jpg" />
        </div>
    
   );

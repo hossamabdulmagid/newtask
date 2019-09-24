@@ -1,11 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
+import { Container, Row, Col } from 'react-bootstrap';
 class Catgory extends React.Component{
     render(){
         return(
-<div className='Aa'>
- <div className="float-md-right">
+
+            <div className="container">
+                <div class="row">
+  <div class="col  align-self-end">
     <CardDeck>
 <Card>
     <Card.Img variant="top" src="https://3.bp.blogspot.com/-MivKEqsh_d0/XOUnVlAivBI/AAAAAAAABQ8/qzeW4gMfqHMACaecK12KUDL9WZDlwV2jQCLcBGAs/s1600/kc.jpg" />
@@ -80,10 +83,10 @@ class Catgory extends React.Component{
     </Card.Footer>
 </Card>
 </CardDeck> 
-
+</div>
+</div>
 </div>
 
-</div>
 
         )
     }

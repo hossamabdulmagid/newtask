@@ -4,9 +4,9 @@ import {Navbar,Nav} from 'react-bootstrap'
 import Summry from './projectsummry';
 const Navbars = () => {
      return (
-        <div>
     <Navbar bg="dark" variant="dark">
-        
+                <div className="container-fluid">
+
     <Navbar.Brand href="#home">
     <img
     alt=""
@@ -24,9 +24,9 @@ const Navbars = () => {
     <NavLink exact  to='/' className="App-link"></NavLink>
         <Summry />
         <NavLink to='/About'  >About</NavLink>
+        </div>
 
     </Navbar>
-</div>
         )
     
 }
